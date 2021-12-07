@@ -1,6 +1,6 @@
 export default function initReservationModel(sequelize, DataTypes) {
   return sequelize.define(
-    'item',
+    'reservation',
     {
       id: {
         allowNull: false,
